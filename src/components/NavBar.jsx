@@ -5,7 +5,7 @@ import logo from '../assets/logoibiza.jpg';
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-6 bg-gradient-to-b from-[#FDFCFB] to-[#E2D1C3] border-b border-gray-100 sticky top-0 z-50">
+    <nav className="flex justify-between items-center p-6 bg-gradient-to-b from-[#FDFCFB] to-[#E2D1C3] border-b border-gray-600 sticky top-0 z-50">
       {/* Brand Logo as Text */}
       <Link to="/"  className="flex flex-col items-center landing-none">
         <span className="font-serif text-3xl text-black tracking-[0.3em] uppercase">
